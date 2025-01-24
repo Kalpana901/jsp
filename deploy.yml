@@ -24,7 +24,7 @@
   - name: Run the container with the latest image
     docker_container:
      name: flask
-     image: apurwasingh/flask:latest
+     image: kalpana901/python:latest
      state: started
      detach: yes
      tty: yes
